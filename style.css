@@ -1,0 +1,38 @@
+body{
+    display: grid;
+    justify-content: center;
+}
+
+.main{
+    display: grid;
+    
+
+}
+
+.container{
+    background-color: rgb(235, 225, 225);
+    width: 350px;
+    padding-left: 10px
+}
+.link1{
+    display: grid;
+    justify-content: center;
+    grid-template-rows: 30px 30px 30px 30px;
+    grid-gap: 10px;
+}
+.links{
+    text-decoration: none;
+    color: black;
+    font-weight: 550;
+}
+.fa:hover{
+    background-color: grey;
+    padding: 5px;
+    border-radius: 5px;
+}
+.links:hover{
+    background-color: grey;
+    padding: 5px;
+    border-radius: 5px;
+}
+
